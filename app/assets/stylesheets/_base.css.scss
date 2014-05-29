@@ -1,0 +1,50 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+}
+
+#header-region{
+
+  .top-bar h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Droid Sans';
+    font-weight: 300;
+  }
+
+}
+
+#footer-region{
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+
+  .panel{
+    margin: 0px;
+    height: 30px;
+
+    h6{
+      margin-top:-10px;
+    }
+  }
+}
+
+#main-region{
+  height: 100%;
+  background: #2d4246; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #2d4246 0%, #8bb4b3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2d4246), color-stop(100%,#8bb4b3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #2d4246 0%,#8bb4b3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #2d4246 0%,#8bb4b3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #2d4246 0%,#8bb4b3 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #2d4246 0%,#8bb4b3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d4246', endColorstr='#8bb4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+  .hero-container{
+      position:relative;
+      padding-top:100px;
+      
+
+  }
+}

@@ -1,4 +1,9 @@
 Intime::Application.routes.draw do
+
+  root 'home#index'
+
+  get ':action' => 'static#:action'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -39,7 +44,7 @@ Intime::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
