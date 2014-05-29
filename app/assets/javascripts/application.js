@@ -18,8 +18,10 @@
 //= require backbone
 //= require backbone.marionette
 //= require js-routes
-
-//= require_tree './backbone/apps'
+//= require './backbone/app'
 //= require_tree './backbone/config'
+//= require_tree './backbone/entities'
+//= require_tree './backbone/apps'
 
-$(function(){ $(document).foundation(); });
+
+$(function(){ $(document).foundation();});

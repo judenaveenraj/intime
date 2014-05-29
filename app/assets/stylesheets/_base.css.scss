@@ -14,20 +14,6 @@ body, html{
 
 }
 
-#footer-region{
-  position: absolute;
-  bottom: 0px;
-  width:100%;
-
-  .panel{
-    margin: 0px;
-    height: 30px;
-
-    h6{
-      margin-top:-10px;
-    }
-  }
-}
 
 #main-region{
   height: 100%;
@@ -44,7 +30,22 @@ body, html{
   .hero-container{
       position:relative;
       padding-top:100px;
-      
 
+
+  }
+}
+
+#footer-region{
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+
+  .panel{
+    margin: 0px;
+    height: 30px;
+
+    h6{
+      margin-top:-10px;
+    }
   }
 }
