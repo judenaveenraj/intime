@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start_avail: MyString
+  end_avail: 2014-05-31 20:53:11
+
+two:
+  start_avail: MyString
+  end_avail: 2014-05-31 20:53:11

@@ -1,5 +1,7 @@
 Intime::Application.routes.draw do
 
+  resources :messages
+
   root 'home#index'
 
   get ':action' => 'static#:action'
